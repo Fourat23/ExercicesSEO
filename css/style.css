@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'LocalBrewerySans';
+    src: url(../font/LocalBrewerySans.ttf),
+    url(../font/LocalBrewerySans.otf);
+}
+@font-face {
+    font-family: 'LocalBreweryTwo-Regular';
+    src: url(../font/LocalBreweryTwo-Regular.ttf),
+    url(../font/LocalBreweryTwo-Regular.otf);
+}
+.navbar {
+    font-family: 'LocalBrewerySans';
+    font-size: 2em;
+}
+.about {
+    font-family: 'LocalBreweryTwo-Regular';
+    padding: 10px;
+    padding-top: 40px;
+}
+p {
+    font-family: 'Oswald';
+    font-weight: 300;
+}
+.paulinepictureindex{
+    width: 130%;
+    display: block;
+    position: relative;
+    bottom: 80px;
+}
+h2 {
+    font-family: 'LocalBrewerySans';
+    text-align: center;
+}
+h3 {
+    font-family: 'LocalBreweryTwo-Regular';
+    text-align: center;
+}
+.prestations {
+    background-color: #f2ad84;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.titleshooting {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.lastshootingother {
+    margin-top: 10px;
+}
+.othershootingbutton {
+    background-color: #bf604a;
+    font-family: 'LocalBrewerySans';
+    font-size: 1.5em;
+}
+footer{
+    background-color: #bf604a;
+    font-family: 'LocalBrewerySans';
+    font-size: 1.4em;
+}
+.mentionslegales {
+    font-family: 'LocalBrewerySans';
+    color: #ffffff;
+}
+.iconsocialnetwork{
+    width: 70px;
+    height: 70px;
+}
+h1{
+    font-family: 'LocalBreweryTwo-Regular';
+    text-align: center;
+    margin: 30px;
+}
+.date{
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+.formbutton {
+    background-color: #bf604a;
+    font-family: 'LocalBrewerySans';
+    font-size: 1.4em;
+    color: #ffffff;
+}
+.formulaire{
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+
+input[type="text"]{
+    font-weight: 300;
+}
+
+input[type="date"]{
+    font-weight: 300;
+}
+
+input[type="mail"]{
+    font-weight: 300;
+}
+
+.textarea{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .paulinepictureindex {
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 10px;
+    }
+    .about {
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}

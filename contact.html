@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PLJ Photography</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+
+
+    <body>
+        <div class="container-fluid">
+        <!-- Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="images/Logo.png" alt="" width="25%">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                      <a class="nav-link" href="shootings.html">Shootings</a>
+                      <a class="nav-link" href="prestations.html">Prestations</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Fin du Header-->
+
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="validationServer01" class="form-label formulaire">Prenom</label>
+              <input type="text" class="form-control " id="validationServer01" placeholder="Votre Prenom..." value="Fourat" required>
+            </div>
+            <div class="col-md-6">
+              <label for="validationServer02" class="form-label formulaire">Nom</label>
+              <input type="text" class="form-control " id="validationServer02" placeholder="Votre Nom..." value="Zouari" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer03" class="form-label formulaire">Email</label>
+                <input type="email" class="form-control " id="validationServer01" placeholder="Votre Mail..." value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer04" class="form-label formulaire">Ville</label>
+              <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer045" class="form-label formulaire">Date de shooting souhaité</label>
+                <input type="date" class="form-control" id="validationServer01"  value="Markl" required>
+            </div>
+            <div class="mb-6">
+                <label for="validationTextarea" class="form-label textarea formulaire">Votre message ici...</label>
+                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                  Merci de rentrer votre message.
+                </div>
+              </div>
+            <div class="col-12">
+              <button class="btn formbutton" type="submit">Envoyer</button>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                  <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+            </div>
+
+          </form>
+
+
+        <!--Footer-->
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Acceuil</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-light">Shootings</a></li>
+              <li class="nav-item"><a href="shootings.html" class="nav-link px-2 text-light">Prestations</a></li>
+              <li class="nav-item"><a href="prestations.html" class="nav-link px-2 text-light">Contact</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-light">About</a></li>
+            </ul>
+
+
+
+            <div class="row justify-content-center">
+                <div class="iconsocialnetwork">
+                    <a href="https://www.intagram.com" target="_blank" alt="Instagram">
+                        <img src="images/logoinstagram.png" width="100%">
+                    </a>
+                </div>
+                <div class="iconsocialnetwork">
+                    <a href="https://www.pinterest.com" target="_blank" alt="Pinterest">
+                        <img src="images/logopinterest.png" width="100%">
+                    </a>
+                </div>
+                <div class="iconsocialnetwork">
+                    <a href="https://www.facebook.com" target="_blank" alt="Facebook">
+                        <img src="images/logofacebook.png" width="100%">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mentionslegales">
+                <a href="mentions_legales.html" class="text-center text-light">©Mentions légales </a>
+            </div>
+
+        </footer>
+
+        <!-- Fin du footer-->
+
+
+
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
